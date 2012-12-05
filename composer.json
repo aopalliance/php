@@ -1,0 +1,20 @@
+{
+    "name": "aopalliance/php",
+    "description": "Library that defines common interfaces for aspect-oriented programming in PHP.",
+
+    "type": "library",
+    "keywords": ["library", "aop", "php"],
+    "license": "MIT",
+
+    "authors": [
+        {
+            "name": "Lissachenko Alexander",
+            "homepage": "https://github.com/lisachenko"
+        }
+    ],
+
+    "autoload": {
+        "psr-0": { "Org/AopAlliance": "lib/" }
+    },
+    "target-dir": "Org/AopAlliance"
+}
